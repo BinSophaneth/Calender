@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+  background-color: #F8F9FA;
+  padding: 25px 15px 25px 55px;
+  margin-top: 45px;
+}
+.content {
+  background-color: white;
+}
 .date-container {
-  color: black;
-  font-weight: 500;
+  font-weight: bold;
 }
 .min-height {
   min-height: 100px;
@@ -14,7 +25,7 @@ thead {
 tbody {
   border: 1px solid #dddddd;
 }
-h3 {
+h2 {
   color: #92d14f;
 }
 td,
@@ -26,41 +37,30 @@ td {
   text-align: left;
   border: 1px solid #dddddd;
 }
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
 .sun {
   color: #eb8e7a;
 }
 .title-name {
   font-size: 12px;
   position: relative;
-  margin-bottom: -39px;
-  bottom: 65px;
-  overflow-wrap: break-word;
-  cursor: pointer;
+  bottom: 72px;
 }
-.form-name {
+.input-name {
   width: 100%;
   height: 23px;
-  font-size: 15px;
   position: relative;
-  top: 0px;
+  top: 70px;
   text-align: center;
   background-color: #df7d5a;
   border: 1px solid #df7d5a;
+  color: white;
 }
-.form-name::placeholder {
+.input-name::placeholder {
   font-size: 13px;
   color: white;
 }
 td.date-container {
   width: 0px;
-}
-td.date-container {
-  width: 0px;
-  height: 130px;
 }
 .color1 {
   background-color: #3281ac;
@@ -71,12 +71,32 @@ td.date-container {
   border: 1px solid #64d0da;
 }
 .color3 {
-  top: 16px;
   background-color: #92d14f;
   border: 1px solid #92d14f;
 }
 .edit {
-  font-size: 12px;
-  flex: 0 1 65%;
+  font-size: 11px;
   color: #3281ac;
+  margin-top: -3px;
+  font-weight: 500;
+}
+.code-color {
+  color: #8FAADC; 
+}
+button.title-name {
+  border: none;
+  background-color: transparent;
+  left: -6px;
+}
+label.input-group-type {
+  margin-top: 7px;
+}
+input#inputTitle {
+  margin-left: 22px;
+}
+select#inputGroupSelect {
+  margin-left: 18px;
+}
+textarea#message-text {
+  margin-left: -1px;
 }
